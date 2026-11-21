@@ -19,6 +19,7 @@ model UserConfig {
   gmailHistoryId     String?
   timezone           String    @default("Europe/Budapest")
   lastSyncAt         DateTime?
+  seededAt           DateTime?
   updatedAt          DateTime  @updatedAt
 }
 
